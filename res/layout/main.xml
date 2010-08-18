@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    >
+	<TextView  
+		android:id="@+id/tv_tip_msg"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/str_welcome" 
+    	android:layout_gravity="center"
+    />
+	<TextView  
+		android:id="@+id/tv_gen_exploit_msg"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center"
+    />
+	<TextView  
+		android:id="@+id/tv_gen_su_bin_msg"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center"
+    />
+	<TextView  
+		android:id="@+id/tv_gen_su_apk_msg"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center"
+    />
+	<TextView  
+		android:id="@+id/tv_gen_script_msg"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center"
+    />
+    <Spinner
+    	android:id="@+id/spinner_su" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" />
+    <CheckBox 
+    	android:id="@+id/chk_box_save_log"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:text="@string/str_root_save_log" />
+    <LinearLayout
+     	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" >
+		<Button
+			android:id="@+id/btn_root" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/str_root" 
+			android:layout_weight="1"
+		/>
+		<Button
+			android:id="@+id/btn_unroot" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/str_unroot" 
+			android:layout_weight="1"
+		/>
+	</LinearLayout>
+</LinearLayout>

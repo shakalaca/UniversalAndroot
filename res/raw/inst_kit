@@ -1,0 +1,33 @@
+# remove exploit
+rm /data/local/tmp/rootshell
+
+# change to source directory
+cd /data/data/com.corner23.android.universalandroot/files
+
+# install tattoo hack
+insmod ./tattoo_hack_gf922713.ko
+insmod ./tattoo_hack_g6561203.ko
+
+# mount /system as read-write
+chmod 777 remount_sys_rw.sh
+./remount_sys_rw.sh
+
+# copy su 
+cat su > /system/bin/su
+chmod 04755 /system/bin/su
+
+# remove old superuser
+rm /system/app/Superuser.apk
+
+# install Superuser.apk
+if chmod 660 Superuser.apk ; then
+  cat Superuser.apk > /system/app/Superuser.apk
+fi
+
+# remount /data to origin state
+chmod 777 remount_data.sh
+./remount_data.sh
+
+# remount /system to read-only
+chmod 777 remount_sys_ro.sh
+./remount_sys_ro.sh

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Universal Androot</string>
+    <string name="str_welcome">Prepare to rule your device !</string>
+    
+    <string name="str_rooting_gen_exploit">Generating exploit .. </string>
+    <string name="str_rooting_gen_su_bin">Generating su .. </string>
+    <string name="str_rooting_gen_su_apk">Generating Superuser.apk .. </string>
+    <string name="str_rooting_gen_script">Generating root script .. </string>
+    <string name="str_unrooting_gen_script">Generating unroot script .. </string>
+    <string name="str_root_installing_kit">Installing toolkit .. </string>
+    <string name="str_root_uninstalling_kit">Uninstalling toolkit .. </string>
+    <string name="str_root_save_log">Generate log in /sdcard</string>
+            
+    <string name="str_rooting_gen_success">[  OK  ]</string>
+    <string name="str_rooting_gen_failed">[ Fail ]</string>
+    
+    <string name="str_rooting_gen_msg">%s %s</string>
+
+    <string-array name="su_array">
+        <item>Superuser for Android 2.0 ~ 2.2</item>
+        <item>Superuser for Android 1.5/1.6</item>
+        <item>Do not install Superuser</item>
+    </string-array>
+    
+    <string name="str_root">Root :-)</string>        
+	<string name="str_root_already_rooted">Your device is already rooted !</string>    
+	<string name="str_root_already_rooted_again">Root again ?</string>    	
+	<string name="str_root_already_rooted_again_yes">Root me please</string>    
+	<string name="str_root_already_rooted_again_no">No</string>    
+	    
+    <string name="str_rooting">Rooting your device, please wait ..</string>
+    <string name="str_root_success">Woot ! Your device is rooted !</string>
+    <string name="str_root_failed">Failed ! No ~~~ Fu goo ~~~</string>
+    
+    <string name="str_unroot">UnRoot :-(</string>
+	<string name="str_unroot_not_rooted">Your device is not rooted !</string>    
+	
+    <string name="str_unrooting">UnRooting your device, please wait ..</string>
+    <string name="str_unroot_success">Unroot ! You become a slave of this evil device..</string>
+    <string name="str_unroot_failed">Failed ! You still have the power, my lord..</string>
+</resources>
